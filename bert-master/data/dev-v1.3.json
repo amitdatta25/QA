@@ -1,0 +1,48 @@
+{
+
+
+  "data": [
+    {
+      "title1": "University_of_Notre_Dame",
+      "paragraphs": [
+        {
+          "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+          "qas": [
+            {
+              "question": "Which late night comedy host show played immediately after Super Bowl 50 ended?",
+              "id": "1"
+            }
+			
+			
+          ]
+		  ,
+		  
+		  "score":"2.63"
+		  
+        }
+      ]
+    }
+  ,
+  
+    {
+      "title2": "University_of_Notre_Dame",
+      "paragraphs": [
+        {
+          "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen ",
+          "qas": [
+            {
+              "question": "Which late night comedy host show played immediately after Super Bowl 50 ended?",
+              "id": "2"
+            }
+			
+			
+          ],
+		  
+		  "score":"5.63"
+		  
+        }
+      ]
+    }
+  ]
+
+}
