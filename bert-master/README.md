@@ -23,7 +23,7 @@ link to the v1.1 datasets any longer, but the necessary files can be found here:
 
 Download these to some directory `$SQUAD_DIR`.
 
-In run_squad folder we have to mention the following hyperparameter for training.We have to download the Bert BASE model and give the path for vocab file,config file,check point.
+In run_squad folder we have to mention the following hyperparameter for training.We have to download the Bert BASE model and give the path for vocab file,config file,check point.In output directory after training all the checkpoints are saved for prediction.
 python run_squad.py \
   --vocab_file=$BERT_BASE_DIR/vocab.txt \
   --bert_config_file=$BERT_BASE_DIR/bert_config.json \
