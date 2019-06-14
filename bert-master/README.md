@@ -39,6 +39,6 @@ python run_squad.py \
   --doc_stride=128 \
   --output_dir=/tmp/squad_base/
   
-  We have to run the modified_check.py file for prediction.It will take input as  paragraph text and question in json format . It will predict the Bert score and answer in json format.
+  We have to run the check_modified.py file for prediction.It will take input as  paragraph text and question in json format . It will predict the Bert score and answer in json format.
 ```
 
