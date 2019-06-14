@@ -39,6 +39,8 @@ python run_squad.py \
   --doc_stride=128 \
   --output_dir=/tmp/squad_base/
   
-  We have to run the check_modified.py file for prediction.It will take input as  paragraph text and question in json format . It will predict the Bert score and answer in json format.
+  We have to run the check_modified.py file for prediction.It will take input as  paragraph text and question in json format . It will predict the Bert score and answer in json format.I have implemented the code in Tensorflow and used Flask service for rest api and use postman for giving the post request to the method.(get_pred is the starting point of the flask service)
+  
+  In future i will trained the model with the total squad data and it will predict more accurately.Bert score can give you the confidence score and it will help you to also predict the answer from the text.
 ```
 
